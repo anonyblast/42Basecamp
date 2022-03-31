@@ -32,9 +32,19 @@ a {
     padding: 5px;
 }
 
+@keyframes float{
+	0%,100%{
+		/* box-shadow:0 5px 15px 0 rgba(0,0,0,.6); */
+		transform:translatey(0)
+	}
+	50%{
+		/* box-shadow: 0 5px 0 0 #d3d3d3; */
+		transform:translatey(-10px)
+	}
+}
+
 .links_ref:hover {
-    background-color: black;
-    color: white;
+    animation: float 2s ease-in-out infinite;
 }
 
 main {

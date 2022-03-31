@@ -1,0 +1,148 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+header img {
+    width: 70px;
+    height: auto;
+}
+
+.navbar{
+    margin: 0;
+    width: 400px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.link_subscribe {
+    width: 400px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+.esquenta {
+    width: 30px;
+    border-bottom: 2px solid black;
+    padding: 5px;
+}
+
+@keyframes float{
+	0%,100%{
+		/* box-shadow:0 5px 15px 0 rgba(0,0,0,.6); */
+		transform:translatey(0)
+	}
+	50%{
+		/* box-shadow: 0 5px 0 0 #d3d3d3; */
+		transform:translatey(-5px)
+	}
+}
+
+.esquenta:hover {
+     animation: float 2s ease-in-out infinite;
+}
+
+.links_ref:hover {
+     animation: float 2s ease-in-out infinite;
+}
+
+main {
+    /* background-image: url("/img/yAxBK0zzZuvDvLGmid-1OTSkMTgRdf73w29Qcg8t3oA.png"); */
+    /* margin-top: 30px; */
+    height: 650px;
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(3, auto);      
+}
+
+main video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: 0;
+    /* filter: contrast(150%); */
+}
+
+.card {
+    z-index: 1;
+    position: relative;
+    width: 350px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    margin: 30px;
+}
+
+.title {
+    width: 350px;
+}
+
+.title h3 {
+    /* font-size: 30px; */
+    text-align: center;
+    margin: 4px;
+    padding: 10px;
+    width: 100px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.title_2 h3 {
+    /* font-size: 30px; */
+    text-align: center;
+    margin: 4px;
+    padding: 10px;
+    width: 150px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    text-align: justify;
+}
+
+footer {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.social {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.social img {
+    width: 30px;
+}
