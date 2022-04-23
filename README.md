@@ -20,4 +20,4 @@ Meu objetivo é documentar minha experiência nessa jornada chamada 42Basecamp, 
 
 > Estou preparando uma ajuda visual nesse <a href="https://anonyblast.github.io/42Basecamp/">site</a>
 
-Sinta-se à vontade para me encontrar nas redes sociais e me dizer o que achou, críticas são bem-vindas. E acompanhe os arquivos que estão na pasta <a href="./basecamp/">basecamp</a>, lá você pode encontrar as minhas resoluções dos desafios.
+Sinta-se à vontade para me encontrar nas redes sociais e me dizer o que achou, críticas são bem-vindas. E acompanhe os arquivos que estão na pasta <a href="./Basecamp/">basecamp</a>, lá você pode encontrar as minhas resoluções dos desafios.
