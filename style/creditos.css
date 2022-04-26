@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    color: #A1AFA3;
+}
+
+main {
+    background-color: #e9ded7;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 50%;
+    height: auto;
+    background-color: #2f2b30;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.selfie img {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.description {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description img {
+    width: 40px;
+    height: 40px;
+}
+
+.card_rick {
+    background-color: #84817E;
+    color: #e9ded7;
+}
