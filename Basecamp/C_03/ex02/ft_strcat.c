@@ -29,6 +29,6 @@ char	*ft_strcat(char *dest, char *src)
 	len = ft_strlen(dest);
 	while (src[count] != '\0')
 		dest[len++] = src[count++];
-	dest[len + count] = '\0';
+	dest[len] = '\0';
 	return (dest);
 }
