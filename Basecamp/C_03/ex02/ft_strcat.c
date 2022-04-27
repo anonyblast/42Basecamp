@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: gusluiz- <gusluiz-@student.42sp.org.br     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/04/20 21:28:08 by gusluiz-          #+#    #+#             */
-/*   Updated: 2022/04/22 16:44:57 by gusluiz-         ###   ########.fr       */
+/*   Created: 2022/04/23 04:57:26 by gusluiz-          #+#    #+#             */
+/*   Updated: 2022/04/23 04:57:49 by gusluiz-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,6 @@ char	*ft_strcat(char *dest, char *src)
 	len = ft_strlen(dest);
 	while (src[count] != '\0')
 		dest[len++] = src[count++];
-	dest[len] = '\0';
+	dest[len + count] = '\0';
 	return (dest);
 }
