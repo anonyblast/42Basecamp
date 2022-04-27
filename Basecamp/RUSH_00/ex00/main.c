@@ -1,34 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strcat.c                                        :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: gusluiz- <gusluiz-@student.42sp.org.br     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/04/20 21:28:08 by gusluiz-          #+#    #+#             */
-/*   Updated: 2022/04/22 16:44:57 by gusluiz-         ###   ########.fr       */
+/*   Created: 2022/04/09 17:02:50 by gusluiz-          #+#    #+#             */
+/*   Updated: 2022/04/11 16:49:55 by gusluiz-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_strlen(char *str)
+#include <unistd.h>
+
+void	rush(int x, int y);
+
+int	main(void)
 {
-	int	count;
-
-	count = 0;
-	while (str[count] != '\0')
-		count++;
-	return (count);
-}
-
-char	*ft_strcat(char *dest, char *src)
-{
-	int	count;
-	int	len;
-
-	count = 0;
-	len = ft_strlen(dest);
-	while (src[count] != '\0')
-		dest[len++] = src[count++];
-	dest[len] = '\0';
-	return (dest);
+	rush(0, 4);
+	return (0);
 }
